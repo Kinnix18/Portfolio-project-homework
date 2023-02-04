@@ -28,6 +28,25 @@ h2 {
   padding: 70px 10px;
 }
 
-.first-recipe {
+.first-recipe second-recipe third-recipe {
   padding: 70px 10px;
+}
+
+.second-recipe {
+  background: var(--main-bg-color);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .name {
+    font-size: 28px;
+  }
+  .hero {
+    padding: 20px 30px;
+  }
 }
