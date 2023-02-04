@@ -23,17 +23,19 @@ h2 {
   font-weight: bolder;
 }
 
-.hero {
-  background: var(--main-bg-color);
-  padding: 70px 10px;
+.navbar {
+  padding: 0 50px;
 }
 
-.first-recipe second-recipe third-recipe {
-  padding: 70px 10px;
-}
-
+.hero,
 .second-recipe {
   background: var(--main-bg-color);
+  padding: 70px 10px;
+}
+
+.first-recipe,
+.third-recipe {
+  padding: 70px 10px;
 }
 
 @media (max-width: 768px) {
