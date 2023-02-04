@@ -4,7 +4,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font-family);
   font-weight: lighter;
 }
@@ -13,16 +14,20 @@ h1 {
   font-size: 28px;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .name {
   font-size: 34px;
   font-weight: bolder;
 }
 
-h2 {
-  font-size: 24px;
-}
-
 .hero {
   background: var(--main-bg-color);
+  padding: 70px 10px;
+}
+
+.first-recipe {
   padding: 70px 10px;
 }
