@@ -38,6 +38,10 @@ h2 {
   padding: 70px 10px;
 }
 
+.wrapper img {
+  max-width: 300px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 22px;
