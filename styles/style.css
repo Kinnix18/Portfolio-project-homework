@@ -24,10 +24,6 @@ li {
   margin-left: 16px;
 }
 
-nav a {
-  color: black;
-}
-
 nav a:hover,
 nav li.active {
   color: var(--hover-color);
@@ -83,8 +79,41 @@ h2 {
   max-width: 800px;
 }
 
+.contact-wrapper p:hover a {
+  color: var(--hover-color);
+}
+
 a {
   text-decoration: none;
+  color: black;
+}
+
+.call-to-action {
+  padding: 20px 60px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 700px;
+  background: var(--main-bg-color);
+  align-items: center;
+}
+
+.call-to-action p {
+  margin: 0;
+}
+
+footer a {
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+.contact-footer-wrapper {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+footer a:hover {
+  background: var(--hover-color);
 }
 
 @media (max-width: 768px) {
@@ -104,5 +133,14 @@ a {
   }
   .hero {
     padding: 20px 30px;
+  }
+
+  .call-to-action {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .call-to-action P {
+    margin-bottom: 10px;
   }
 }
