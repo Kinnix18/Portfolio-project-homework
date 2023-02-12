@@ -26,16 +26,26 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/style.css" />
-    <title>My cookbook</title>
+    <meta
+      name="description"
+      content="This is a collection of great recipes for every day"
+    />
+    <title>Cookbook with simple recipes</title>
   </head>
   <body>
     <nav class="container d-flex justify-content-between">
-      <a href="/index.html"><i class="fa-solid fa-utensils"></i></a>
+      <a href="/index.html" title="My logo"
+        ><i class="fa-solid fa-utensils"></i
+      ></a>
       <ul>
-        <a href="/index.html"><li class="active">Home</li></a>
-        <a href="/about.html"><li>About me</li></a>
-        <a href="/cookbook.html"><li>Cookbook</li></a>
-        <a href="/contact.html"> <li>Contacts</li></a>
+        <a href="/index.html" title="This is homepage"
+          ><li class="active">Home</li></a
+        >
+        <a href="/about.html" title="To learn more about me"
+          ><li>About me</li></a
+        >
+        <a href="/cookbook.html" title="My cookbook"><li>Cookbook</li></a>
+        <a href="/contact.html" title="My contacts"> <li>Contacts</li></a>
       </ul>
     </nav>
     <div class="container text-center hero">
@@ -75,7 +85,9 @@
             Halloumi with juicy pomegranate seeds and the crunch of pumpkin
             seeds is a moreish combination
           </p>
-          <a href="#" class="btn btn-outline-success btn-lg">Recipe</a>
+          <a href="/cookbook.html" class="btn btn-outline-success btn-lg"
+            >Recipe</a
+          >
         </div>
         <div class="col d-none d-md-block">
           <img src="images/beetroot-salad.png" alt="beetroot-salad" />
@@ -92,7 +104,9 @@
             Make this healthy chicken and hummus salad bowl for a delicious
             budget lunch option
           </p>
-          <a href="#" class="btn btn-outline-success btn-lg">Recipe</a>
+          <a href="/cookbook.html" class="btn btn-outline-success btn-lg"
+            >Recipe</a
+          >
         </div>
         <div class="col d-none d-md-block">
           <img src="images/chicken-bowl.png" alt="chiken-bowl" />
@@ -111,7 +125,9 @@
             High in fibre, a good source of iron, vitamin C - what's not to love
             about this superhealthy salad?
           </p>
-          <a href="#" class="btn btn-outline-success btn-lg">Recipe</a>
+          <a href="/cookbook.html" class="btn btn-outline-success btn-lg"
+            >Recipe</a
+          >
         </div>
         <div class="col d-none d-md-block">
           <img src="images/carrot-salad.png" alt="carrot-salad" />
@@ -125,27 +141,43 @@
               If you want to publish your recipe in a cookbook
             </p>
           </div>
-          <div><a class="btn btn-success">Contact me</a></div>
+          <div>
+            <a href="/contact.html" class="btn btn-success">Contact me</a>
+          </div>
         </div>
         <div class="row contact-footer-wrapper">
           <div class="col-4">
-            <a href="mailto:yanchuk137@gmail.com"
-              ><i class="fa-regular fa-envelope"></i
+            <a href="mailto:yanchuk137@gmail.com" title="My email"
+              ><i class="social-logo fa-regular fa-envelope"></i
             ></a>
           </div>
           <div class="col-4">
-            <a href="https://www.facebook.com/OksanYanchuk" target="_blank"
-              ><i class="fa-brands fa-facebook"></i
+            <a
+              href="https://www.facebook.com/OksanYanchuk"
+              target="_blank"
+              title="My facebook profile"
+              ><i class="social-logo fa-brands fa-facebook"></i
             ></a>
           </div>
           <div class="col-4">
             <a
               href="https://www.instagram.com/hokkaido13_13_13/?hl=ua"
               target="_blank"
-              ><i class="fa-brands fa-instagram"></i
+              title="My instagram profile"
+              ><i class="social-logo fa-brands fa-instagram"></i
             ></a>
           </div>
         </div>
+        <p class="text-muted mt-4">
+          <a
+            href="https://github.com/Kinnix18/Portfolio-project-homework.git"
+            target="_blank"
+            title="This project on Github"
+          >
+            This project</a
+          >
+          was made by Oksana Yanchuk as a homework for SheCodes
+        </p>
       </footer>
     </div>
   </body>
