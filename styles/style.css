@@ -110,13 +110,13 @@ footer .social-logo {
   border-radius: 50%;
 }
 
+footer .social-logo:hover {
+  background: var(--hover-color);
+}
+
 .contact-footer-wrapper {
   margin: 20px auto;
   max-width: 500px;
-}
-
-footer .social-logo:hover {
-  background: var(--hover-color);
 }
 
 @media (max-width: 768px) {
@@ -138,12 +138,17 @@ footer .social-logo:hover {
     padding: 20px 30px;
   }
 
+  .main-sentence {
+    margin: 20px 60px;
+    font-size: 40px;
+  }
+
   .call-to-action {
     padding: 20px;
     flex-direction: column;
   }
 
-  .call-to-action P {
+  .call-to-action p {
     margin-bottom: 10px;
   }
 }
